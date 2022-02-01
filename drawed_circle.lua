@@ -1,4 +1,5 @@
 local client = {}
+local RunService = game:GetService("RunService")
 function client.renderCircle(Point, Radius)
    local Circle = {}
 

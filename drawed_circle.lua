@@ -23,8 +23,8 @@ function client.renderCircle(Point, Radius)
    local izAxis = Point.Z
 
    for i = 0, 360, 10 do
-       local xOffset = ixAxis + Radius * cos(rad(i))
-       local zOffset = izAxis + Radius * sin(rad(i))
+       local xOffset = ixAxis + Radius * math.cos(rad(i))
+       local zOffset = izAxis + Radius * math.sin(rad(i))
        local Result = nVector3(xOffset, iyAxis, zOffset)
 
        insert(points, Result)

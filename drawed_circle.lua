@@ -1,3 +1,4 @@
+local client = {}
 function client.renderCircle(Point, Radius)
    local Circle = {}
 
@@ -76,3 +77,5 @@ function client.renderCircle(Point, Radius)
    end)
    return Circle
 end
+
+return client
